@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "Hello 2018"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-12-11 15:20:00
+author:     "Lanxiaofan"
+header-img: "img/post-bg-20181208.jpg"
+catalog: true
+tags:
+    - 生活
+    - Meta
+---
+
+> “Yeah It's on. ”
+
+
+## 正文
+
+Lanxiaofan 的 Blog 就这么开通了。
+2018 年12月，话说明天就是双12了啊，lanxiaofan终于成功搭了一个自己博客，开心ing+ing+ing。
+
+
+
+---
+
+
+
