@@ -67,7 +67,7 @@ netease_comment: false
 
 # gitalk settings
 comments:
-    gitalk:true
+    enable:true
     gitalk_owner:'lanxiaofan'
     gitalk_admin:'lanxiaofan'
     gitalk_repo:'lanxiaofan.github.io'
