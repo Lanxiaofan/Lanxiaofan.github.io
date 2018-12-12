@@ -66,15 +66,15 @@ disqus_username: false
 netease_comment: false
 
 # gitalk settings
+
 comments:
-    enable:true
-    gitalk_id:'window.location.pathname'
-    gitalk_owner:'lanxiaofan'
-    gitalk_admin:'lanxiaofan'
-    gitalk_repo:'lanxiaofan.github.io'
-    gitalk_clientID:'4c28e8950e7d4a82cd6e'
-    gitalk_Secret:'1c4eb4eff7a056d1abe73f0c3b3d6508eea18316'
-    distractionFreeMode:true
+    gitalk: true
+    gitalk_clientID: '28d00b91cc66e4795dcd'
+    gitalk_Secret: '0872992f2fd9b92a05540f239c45a3f84782e8e3'
+    gitalk_owner: 'Lanxiaofan'
+    gitalk_admin: 'Lanxiaofan'
+    gitalk_repo: 'lanxiaofan.github.io'
+    distractionFreeMode: true
 
 # Analytics settings
 # Baidu Analytics 
@@ -82,7 +82,7 @@ comments:
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: lanxiaofan.online
 
 
 

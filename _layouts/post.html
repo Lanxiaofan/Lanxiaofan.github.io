@@ -8,6 +8,9 @@ layout: default
 
 <!-- Post Header -->
 {% include intro-header.html type='post' %}
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
 <!-- Post Content -->
 <article>
     <div class="container">
@@ -51,28 +54,12 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-				<!-- Gitalk 评论 start  -->
-				{% if site.comments.enable %}
-				<!-- Link Gitalk 的支持文件  -->
-				<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-				<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+			
+				{% if site.comments.gitalk %}
+				<!-- gitalk 评论框 start -->
 				<div id="gitalk-container"></div>
-				<script type="text/javascript">
-				var gitalk = new Gitalk({
-				// gitalk的主要参数
-					clientID:{{site.comments.gitalk_clientID}},
-					clientSecret:{{ site.comments.gitalk_Secret}},
-					repo:{{site.comments.gitalk_repo}},
-					owner:{{site.comments.gitalk_owner}},
-					admin:{{ site.comments.gitalk_admin}},
-					id:{{site.comments.gitalk_id}},      // Ensure uniqueness and length less than 50{{ page.title }}
-					distractionFreeMode:{{site.comments.distractionFreeMode}}  // Facebook-like distraction free mode
-				});
-				gitalk.render('gitalk-container');
-				</script>
+				<!-- gitalk 评论框 end -->
 				{% endif %}
-				<!-- Gitalk end -->
-
 				
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
@@ -106,6 +93,8 @@ layout: default
             </div>
         {% endif %}
 
+		
+		
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -161,6 +150,23 @@ layout: default
     })();
 </script>
 <!-- disqus 公共JS代码 end -->
+{% endif %}
+
+<!-- gitalk 公共JS代码 end -->
+ {% if site.comments.gitalk %}
+ <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+ <script>
+    var gitalk = new Gitalk({
+        clientID:'{{ site.comments.gitalk_clientID }}',
+        clientSecret: '{{ site.comments.gitalk_Secret }}',
+        repo:'{{ site.comments.gitalk_repo }}',
+        owner:'{{ site.comments.gitalk_owner }}',
+        admin:'{{ site.comments.gitalk_admin }}',
+        id:location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+        distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script>
 {% endif %}
 
 
