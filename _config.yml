@@ -68,6 +68,7 @@ netease_comment: false
 # gitalk settings
 comments:
     enable:true
+    gitalk_id:'window.location.pathname'
     gitalk_owner:'lanxiaofan'
     gitalk_admin:'lanxiaofan'
     gitalk_repo:'lanxiaofan.github.io'
