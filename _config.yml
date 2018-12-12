@@ -72,8 +72,8 @@ comments:
     gitalk_owner:'lanxiaofan'
     gitalk_admin:'lanxiaofan'
     gitalk_repo:'lanxiaofan.github.io'
-    gitalk_clientID:'6fd88a102ea7d80b6187'
-    gitalk_Secret:'5175744162a76417869e01520774571b26428cf4'
+    gitalk_clientID:'4c28e8950e7d4a82cd6e'
+    gitalk_Secret:'1c4eb4eff7a056d1abe73f0c3b3d6508eea18316'
     distractionFreeMode:true
 
 # Analytics settings
