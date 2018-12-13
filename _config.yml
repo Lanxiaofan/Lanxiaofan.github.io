@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: 1156217516@qq.com
 description: "关于程序与设计、Android | 赵凡，Software Engineer | 这里是赵凡的个人博客，与你一起发现更大的世界。"
 keyword: "赵凡, lanxiaofan, @lanxiaofan, 赵凡的博客, Lanxiaofan Blog, 博客, 互联网,JavaScript, Android, android"
-url: "https://lanxiaofan.online"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://lanxiaofan.github.io"              # your host, for absolute URL
+baseurl: "https://lanxiaofan.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -81,8 +81,8 @@ comments:
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: lanxiaofan.online
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: lanxiaofan.online
 
 
 
