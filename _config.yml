@@ -69,11 +69,11 @@ netease_comment: false
 
 comments:
     gitalk: true
-    gitalk_clientID: '28d00b91cc66e4795dcd'
-    gitalk_Secret: '0872992f2fd9b92a05540f239c45a3f84782e8e3'
-    gitalk_owner: 'Lanxiaofan'
-    gitalk_admin: 'Lanxiaofan'
-    gitalk_repo: 'lanxiaofan.github.io'
+    gitalk_clientID: 28d00b91cc66e4795dcd
+    gitalk_Secret: 0872992f2fd9b92a05540f239c45a3f84782e8e3
+    gitalk_owner: Lanxiaofan
+    gitalk_admin: Lanxiaofan
+    gitalk_repo: lanxiaofan.github.io
     distractionFreeMode: true
 
 # Analytics settings
