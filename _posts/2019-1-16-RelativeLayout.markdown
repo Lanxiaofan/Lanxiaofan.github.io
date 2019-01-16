@@ -16,10 +16,10 @@ tags:
 ## RelativeLayout布局属性
 
 #### 第一组属性：
-* android:layout_below
+* android:layout_below 
 * android:layout_above
 * android:layout_toLeftOf
-* android:layout_toRightOf
+* android:layout_toRightOf <br>
 这四个属性是用在RelativeLayout上的，例如android:layout_below就是将目标控件的上边缘与引用控件的下边缘对齐，android:layout_toRightOf就是将目标控件的左边缘与引用控件的右边缘对齐。
 
 #### 第二组属性：
@@ -27,7 +27,7 @@ tags:
 * android:layout_alignBottom
 * android:layout_alignLeft
 * android:layout_alignRight
-* android:layout_alignBaseLine
+* android:layout_alignBaseLine <br>
 顾名思义，android:layout_alignTop就表示目标控件和引用控件的上边缘对齐，android:layout_alignLeft则表示目标控件与引用控件的左边缘对齐，android:layout_alignBaseLine是基于基准线对其，基准线就是我们写英文字母那4行线的第三条
 
 #### 第三组属性：
