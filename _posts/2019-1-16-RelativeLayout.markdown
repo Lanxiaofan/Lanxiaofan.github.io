@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "基础xml的布局"
-subtitle:   " \"RelativeLayout的属性\""
+title:      "RelativeLayout的属性"
+subtitle:   " \"基础xml的布局\""
 date:       2019-01-16 14:10:00
 author:     "Lanxiaofan"
 catalog: true

@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "adb的使用"
-subtitle:   " \"使用adb导出手机崩溃日志\""
+title:      "使用adb导出手机崩溃日志"
+subtitle:   " \"adb的使用\""
 date:       2019-01-16 15:00:00
 author:     "Lanxiaofan"
 catalog: true
@@ -19,7 +19,8 @@ tags:
 ![](/img/in-post/post-20190116-push-message.png)
 最后导出traces.txt文件至一个目录下，这里是d:/app目录（注意接下来的操作需要返回dos主目录下C:\ Users\XX，输入下面的命令） <br>
 * adb   pull   /data/anr/traces.txt   d:/app <br><br>
-注意：如果仍然失败可以使用chmod   777   /data/data更改权限后再重复以上操作
+
+如果仍然失败可以使用chmod   777   /data/data更改权限后再重复以上操作
 
 ---
 
