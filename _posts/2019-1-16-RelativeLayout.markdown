@@ -20,7 +20,7 @@ android:layout_below <br>
 android:layout_above <br>
 android:layout_toLeftOf <br>
 android:layout_toRightOf <br>
-android:layout_below就是将目标控件的上边缘与引用控件的下边缘对齐，android:layout_toRightOf就是将目标控件的左边缘与引用控件的右边缘对齐。 <br> 
+这组属性的layout_below就是将目标控件的上边缘与引用控件的下边缘对齐，layout_toRightOf就是将目标控件的左边缘与引用控件的右边缘对齐。 <br> 
 
 * 第二组属性 <br> 
 android:layout_alignTop <br>
@@ -28,7 +28,7 @@ android:layout_alignBottom <br>
 android:layout_alignLeft <br>
 android:layout_alignRight <br>
 android:layout_alignBaseLine <br>
-顾名思义，android:layout_alignTop就表示目标控件和引用控件的上边缘对齐，android:layout_alignLeft则表示目标控件与引用控件的左边缘对齐，android:layout_alignBaseLine是基于基准线对其，基准线就是我们写英文字母那4行线的第三条 <br> 
+顾名思义，layout_alignTop就表示目标控件和引用控件的上边缘对齐，layout_alignLeft则表示目标控件与引用控件的左边缘对齐，layout_alignBaseLine是基于基准线对其，基准线就是我们写英文字母那4行线的第三条 <br> 
 
 * 第三组属性 <br> 
 layout_alignParentRight <br>
@@ -49,7 +49,7 @@ layout_alignStop <br>
 layout_alignParentStart <br>
 layout_alignParentStop <br>
 layout_alignStart <br>
-layout_alignStop是引用其他控件，表示与控件的开始位置、结束位置对齐，layout_alignParentStart, layout_alignParentStop取值为true、false，表示与父控件的开始，结束位置对齐
+这组属性的layout_alignStop是引用其他控件，表示与控件的开始位置、结束位置对齐，layout_alignParentStart, layout_alignParentStop取值为true、false，表示与父控件的开始，结束位置对齐
 
 
 
