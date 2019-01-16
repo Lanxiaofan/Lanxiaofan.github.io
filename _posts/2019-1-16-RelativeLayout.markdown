@@ -15,14 +15,14 @@ tags:
 
 ## RelativeLayout布局属性
 
-###第一组属性：
-android:layout_below
-android:layout_above
+### 第一组属性：
+android:layout_below /n
+android:layout_above /n
 android:layout_toLeftOf
 android:layout_toRightOf
 这四个属性是用在RelativeLayout上的，例如android:layout_below就是将目标控件的上边缘与引用控件的下边缘对齐，android:layout_toRightOf就是将目标控件的左边缘与引用控件的右边缘对齐。
 
-###第二组属性：
+### 第二组属性：
 android:layout_alignTop
 android:layout_alignBottom
 android:layout_alignLeft
@@ -30,20 +30,20 @@ android:layout_alignRight
 android:layout_alignBaseLine
 顾名思义，android:layout_alignTop就表示目标控件和引用控件的上边缘对齐，android:layout_alignLeft则表示目标控件与引用控件的左边缘对齐，android:layout_alignBaseLine是基于基准线对其，基准线就是我们写英文字母那4行线的第三条
 
-###第三组属性：
+### 第三组属性：
 layout_alignParentRight
 layout_alignParentLeft
 layout_alignParentTop
 layout_alignParentBottom
 这组属性的值是 true 或者 false，因为每个控件的直接父控件只有一个，所以用true/false来表示是否与父控件的边缘对齐
 
-###第四组属性：
+### 第四组属性：
 layout_centerInParent
 layout_centerVertical
 layout_centerHorizontal
 这组属性取值也是true或者false，layout_centerInParent表示与父控件在水平方向和垂直方向都对齐，处于正中央，layout_centerVertical表示与父控件在垂直方向上对其，layout_centerHorizontal表示与父控件在水平方向上对齐
 
-###第五组属性：
+### 第五组属性：
 layout_alignStart
 layout_alignStop
 layout_alignParentStart
