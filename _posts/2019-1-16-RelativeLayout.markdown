@@ -34,13 +34,13 @@ tags:
 * layout_alignParentRight
 * layout_alignParentLeft
 * layout_alignParentTop
-* layout_alignParentBottom
+* layout_alignParentBottom <br>
 这组属性的值是 true 或者 false，因为每个控件的直接父控件只有一个，所以用true/false来表示是否与父控件的边缘对齐
 
 #### 第四组属性：
 * layout_centerInParent
 * layout_centerVertical
-* layout_centerHorizontal
+* layout_centerHorizontal <br>
 这组属性取值也是true或者false，layout_centerInParent表示与父控件在水平方向和垂直方向都对齐，处于正中央，layout_centerVertical表示与父控件在垂直方向上对其，layout_centerHorizontal表示与父控件在水平方向上对齐
 
 #### 第五组属性：
